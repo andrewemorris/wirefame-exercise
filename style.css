@@ -1,11 +1,18 @@
 header {
-  background-color: #fa8072;
-}
-
-footer {
   background-color: salmon;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+body {
   background-color: #ffdead;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
