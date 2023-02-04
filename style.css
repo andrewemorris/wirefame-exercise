@@ -1,18 +1,53 @@
 header {
   background-color: salmon;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 760px;
 }
 
 footer {
-  background-color: green;
-  display: flex;
-  justify-content: center;
+  background-color: salmon;
+  min-height: 100px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 body {
-  background-color: #ffdead;
+
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+article {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  max-height: 440px;
+  margin-left: 30px;
+}
+
+article p {
+ /* overflow-y: scroll; */
+}
+
+button {
+  padding: 1rem 3rem;
+  width: 75%;
+  border-radius: 10px;
+  transition-duration: 0.35s;
 }
